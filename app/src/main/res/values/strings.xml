@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">OneFootBall</string>
+    <string name="stay_updated_on_all_the_goals_receive_real_time_match_notifications_fixtures_and_results_for_the_teams_you_love">Stay updated on all the goals.Receive real-time match notifications, fixtures and results for the teams you love.</string>
+    <string name="make_onefootball_your_own_football_hub">Make <b>ONEFOOTBALL</b> your\nown Football hub</string>
+    <string name="the_hottest_news_and_views_from_the_world_of_football">The hottest news and views from the world of football</string>
+    <string name="top_news">Top News</string>
+    <string name="cristiano_ronaldo_s_milestone_moments_as_he_scores_900th_career_goal">Cristiano Ronaldo’s milestone moments as he scores 900th career goal</string>
 </resources>

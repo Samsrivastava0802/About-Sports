@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_milestone_moments"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/iv_cristiano_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="16dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:text="@string/cristiano_ronaldo_s_milestone_moments_as_he_scores_900th_career_goal"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="2dp" />
+
+    <ImageView
+        android:id="@+id/iv_cristiano_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/football_image"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/iv_cristiano_image"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>

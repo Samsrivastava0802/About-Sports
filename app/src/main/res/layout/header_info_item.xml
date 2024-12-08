@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_top_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top_news"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/iv_back_arrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/back_arrow"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@id/tv_top_news"
+         />
+
+    <TextView
+        android:id="@+id/tv_hottest_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_hottest_news_and_views_from_the_world_of_football"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_top_news"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_hottest_news"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>
